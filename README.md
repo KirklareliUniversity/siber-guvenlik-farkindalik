@@ -168,7 +168,7 @@ Backend aşağıdaki temel REST endpoint'lerini sunar:
 
 
 
----
-*Muhammed Aybars ÇELİK*
-*Ayberk İlcan ÇIRASUN*
-*Eren AKSOY*
+- Muhammed Aybars ÇELİK  
+- Ayberk İlcan ÇIRASUN  
+- Eren AKSOY
+
