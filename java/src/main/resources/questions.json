@@ -1,0 +1,952 @@
+[
+  {
+    "id": 1,
+    "email": {
+      "from": "bilgilendirme@garantibankasi.com",
+      "subject": "Hesabınız şüpheli bir işlem nedeniyle donduruldu",
+      "body": "Değerli müşterimiz, hesabınızda olağan dışı bir hareket tespit edildi. Hesabınızı kurtarmak için lütfen hesabınıza giriş yaparak kimliğinizi doğrulayın: https://garantibankasi.com",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Bu e-postayla karşılaştığınızda ne yapmalısınız?",
+    "options": [
+      "Gönderen adresini ve bağlantıyı kontrol eder, resmi kanallardan doğrulama yaparım.",
+      "E-postadaki bağlantıya tıklayıp hesabımı hemen doğrularım.",
+      "E-postayı yanıtlayıp bankadan doğrulama isterim.",
+      "E-postayı görmezden gelirim; aynı şekilde devam ederim."
+    ],
+    "correctAnswer": "Gönderen adresini ve bağlantıyı kontrol eder, resmi kanallardan doğrulama yaparım.",
+    "explanation": "Gönderen veya bağlantı sahte olabilir; bankacılık işlemlerini doğrudan resmi internet şubesinden ya da müşteri hizmetlerinden doğrulayın."
+  },
+  {
+    "id": 2,
+    "email": {
+      "from": "support@paypall.com",
+      "subject": "Acil: PayPal hesabınız kısıtlandı",
+      "body": "Hesabınızda olağan dışı etkinlik tespit edildi. Hesabınızı aktifleştirmek için lütfen aşağıdaki bağlantıya tıklayın: http://paypal-giris-dogrulama.com",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Bu e-posta muhtemelen neyi amaçlıyor ve siz ne yapmalısınız?",
+    "options": [
+      "Phishing amaçlıdır; linke tıklamam ve doğrudan PayPal sitesinden kontrol ederim.",
+      "Gerçek bir bildirimdir; linke tıklayıp bilgileri doğrularım.",
+      "Sadece bilgilendirme, önemsemem.",
+      "E-postayı yöneticiye iletmem gerekir."
+    ],
+    "correctAnswer": "Phishing amaçlıdır; linke tıklamam ve doğrudan PayPal sitesinden kontrol ederim.",
+    "explanation": "Gönderen alanı resmi PayPal domainiyle uyumsuz. Phishing oltalarına karşı doğrudan servisin resmi adresini kullanın."
+  },
+  {
+    "id": 3,
+    "email": {
+      "from": "noreply@sgk.gov.tr",
+      "subject": "E-Devlet hizmetine giriş onayı gerekebilir",
+      "body": "E-Devlet üzerinden bir giriş denemesi tespit edildi. Hizmetlerden yararlanmaya devam etmek için hesabınızı güncelleyin: http://www.sgkgiris.com/edevlet",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "E-Devlet'ten böyle bir e-posta aldığınızda en güvenli yaklaşım nedir?",
+    "options": [
+      "E-posta içindeki linke tıklamak yerine e-Devlet resmi sitesine manuel olarak girip kontrol etmek.",
+      "Linke tıklayıp gerekli bilgileri hızlıca girmek.",
+      "E-postayı hiç okumadan silmek.",
+      "E-postayı bir arkadaşınıza iletmek."
+    ],
+    "correctAnswer": "E-posta içindeki linke tıklamak yerine e-Devlet resmi sitesine manuel olarak girip kontrol etmek.",
+    "explanation": "Resmi hizmetler için e-postadaki bağlantılara tıklamak risklidir; doğrudan resmi portala girerek doğrulama yapın."
+  },
+  {
+    "id": 4,
+    "email": {
+      "from": "zoom@zoommail.com",
+      "subject": "Size gönderilen toplantı davetiyesi",
+      "body": "Size Zoom üzerinden önemli bir toplantı daveti gönderildi. Katılmak için kimlik doğrulaması yapın: http://zoom-office-onay.com",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "Böyle bir davetiye e-postası aldığınızda ne yapmalısınız?",
+    "options": [
+      "Göndereni doğrulayıp Zoom uygulaması veya takvimden daveti kontrol etmek.",
+      "E-postadaki bağlantıya tıklayıp kimliğimi doğrulamak.",
+      "E-postayı spam olarak işaretleyip silmek.",
+      "E-postayı yanıtlayarak toplantı detayını sormak."
+    ],
+    "correctAnswer": "Göndereni doğrulayıp Zoom uygulaması veya takvimden daveti kontrol etmek.",
+    "explanation": "Toplantı davetlerini uygulama içinden veya takvim davetlerinden doğrulamak güvenlidir; e-posta içi şüpheli bağlantılara tıklamayın."
+  },
+  {
+    "id": 5,
+    "email": {
+      "from": "facebooksecurity@fbk.com",
+      "subject": "Facebook: Hesabınız yeni bir cihazdan açıldı",
+      "body": "Hesabınız başka bir cihazdan açıldı. Eğer siz değilseniz şifrenizi buradan değiştirin: http://facebook-guvenlik.com/reset",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Bu bildirim geldiğinde en uygun tepki nedir?",
+    "options": [
+      "Linke tıklamadan önce göndereni ve URL'yi kontrol eder, gerekirse hesabı uygulama/arayüzden doğrularım.",
+      "Derhal linke tıklayıp şifremi değiştiririm.",
+      "E-postayı görmezden gelirim; hesabım güvenlidir.",
+      "E-postayı birine iletip onay alırım."
+    ],
+    "correctAnswer": "Linke tıklamadan önce göndereni ve URL'yi kontrol eder, gerekirse hesabı uygulama/arayüzden doğrularım.",
+    "explanation": "Phishing saldırganları gerçek bildirimleri taklit eder; uygulama veya resmi site üzerinden kontrol etmelisiniz."
+  },
+  {
+    "id": 6,
+    "email": {
+      "from": "destek@netflixaccount.com",
+      "subject": "Netflix üyeliğiniz askıya alındı",
+      "body": "Ödeme bilgilerinizde sorun var. Üyeliği sürdürmek için ödeme bilgilerinizi güncelleyin: http://netflix-odeme.com/aktiflestir",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Bu e-postayı aldığınızda ne yapmalısınız?",
+    "options": [
+      "Phishing olabilir; linke tıklamadan doğrudan Netflix hesabıma girip kontrol ederim.",
+      "Bağlantıya tıklayıp ödeme bilgilerini güncellerim.",
+      "E-postayı bir kenara atarım.",
+      "E-postayı yanıtlayıp müşteri hizmetlerinden onay isterim."
+    ],
+    "correctAnswer": "Phishing olabilir; linke tıklamadan doğrudan Netflix hesabıma girip kontrol ederim.",
+    "explanation": "Ödeme taleplerinde e-posta bağlantılarına tıklamak risklidir; doğrudan servis hesabından kontrol edin."
+  },
+  {
+    "id": 7,
+    "email": {
+      "from": "ceo@comppany.com",
+      "subject": "ACİL: Hemen havale yapılması gerekiyor",
+      "body": "Önemli bir anlaşma için derhal 50.000 USD transfer etmeniz gerekiyor. Bu işlemi gizli tutun ve bana bilgi verin.",
+      "hasLink": false,
+      "urgency": "high"
+    },
+    "question": "Böyle bir talep geldiğinde en doğru hareket nedir?",
+    "options": [
+      "Telefonla veya yüz yüze ikinci bir doğrulama yapmadan havale yapmamak.",
+      "Talebi yerine getirip e-posta ile bilgi vermek.",
+      "E-postayı yöneticinize iletmeden ödemeyi onaylamak.",
+      "Talebi görmezden gelmek."
+    ],
+    "correctAnswer": "Telefonla veya yüz yüze ikinci bir doğrulama yapmadan havale yapmamak.",
+    "explanation": "CEO dolandırıcılığı (BEC) yaygındır; finansal talepleri her zaman alternatif bir iletişim kanalıyla doğrulayın."
+  },
+  {
+    "id": 8,
+    "email": {
+      "from": "destek@krizduyurusu.com",
+      "subject": "İstediğiniz belge hazırlandı — parola ile korunuyor",
+      "body": "İstediğiniz PDF belgesi parola ile korunmuştur. Açmak için ekteki dosyayı indirin ve şifreyi girin.",
+      "hasLink": false,
+      "urgency": "medium"
+    },
+    "question": "Beklenmeyen ek dosya aldığınızda ne yapmalısınız?",
+    "options": [
+      "Ek dosyayı açmadan önce göndereni doğrular ve güvenli değilse dosyayı açmam.",
+      "Eki açıp içeriğe hemen bakarım.",
+      "Ek dosyayı başka birine gönderirim.",
+      "Ek dosyanın şifrelendiğini görünce güvenli olduğunu varsayarım."
+    ],
+    "correctAnswer": "Ek dosyayı açmadan önce göndereni doğrular ve güvenli değilse dosyayı açmam.",
+    "explanation": "Beklenmeyen ekler kötü amaçlı yazılım içerebilir; gönderen doğrulanmadan açmayın."
+  },
+  {
+    "id": 9,
+    "email": {
+      "from": "musteri.hizmetleri@oneturkcell.com",
+      "subject": "Tebrikler! 1000 TL hediye kazandınız",
+      "body": "Kampanyamıza seçildiniz. Ödülünüzü almak için bağlantıya tıklayın: http://turkcell-hediye.com/al",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Bu tür beklenmedik hediye e-postalarında hangi yaklaşım uygundur?",
+    "options": [
+      "Phishing olabilir; resmi kaynaklardan kampanyayı kontrol ederim.",
+      "Bağlantıya tıklayıp ödülü hemen alırım.",
+      "E-postayı sosyal medyada paylaşırım.",
+      "E-postayı işaretlemeden okurum."
+    ],
+    "correctAnswer": "Phishing olabilir; resmi kaynaklardan kampanyayı kontrol ederim.",
+    "explanation": "Beklenmedik ödül vaatleri genellikle oltalama amaçlıdır; resmi hesaplardan doğrulama yapın."
+  },
+  {
+    "id": 10,
+    "email": {
+      "from": "info@aras-kargo.com.tr",
+      "subject": "Teslimat adresinizi güncelleyin",
+      "body": "Paket teslimatı yapılamadı. Yeniden gönderim için adres bilgilerinizi ve ek ücreti buradan girin: http://ptt-kargo-bilgi.com/kargo",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Kargo ile ilgili böyle bir bildirim aldığınızda en güvenli hareket nedir?",
+    "options": [
+      "Gönderici domainini kontrol eder ve resmi kargo sitesinden takip işlemi yaparım.",
+      "E-postadaki linki kullanarak hemen ödeme yaparım.",
+      "E-postayı silerim ve başka işlem yapmam.",
+      "E-postayı yanıtsız bırakırım."
+    ],
+    "correctAnswer": "Gönderici domainini kontrol eder ve resmi kargo sitesinden takip işlemi yaparım.",
+    "explanation": "Kargo bildirimleri için resmi taşıyıcı web sitesini veya uygulamayı kullanın; e-posta içi linklere güvenmeyin."
+  },
+  {
+    "id": 11,
+    "email": {
+      "from": "microsoft@outlook.com",
+      "subject": "Office 365 parola süreniz doluyor",
+      "body": "Parolanız yarın sona erecek. Hesabınızı güncellemek için lütfen buradan giriş yapın: http://microsoft-guncelle.com",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Bu e-postayla karşılaştığınızda hangi adımı atmalısınız?",
+    "options": [
+      "E-postadaki linke tıklamak yerine Microsoft hesabınıza manuel olarak giriş yapıp kontrol etmek.",
+      "Bağlantıya tıklayıp parolayı hemen değiştirmek.",
+      "E-postayı bir güvenlik uzmanına iletmek.",
+      "E-postayı spam klasörüne taşımak."
+    ],
+    "correctAnswer": "E-postadaki linke tıklamak yerine Microsoft hesabınıza manuel olarak giriş yapıp kontrol etmek.",
+    "explanation": "Resmi sağlayıcılar için doğrudan hizmet portalını kullanın; sahte linklere tıklamayın."
+  },
+  {
+    "id": 12,
+    "email": {
+      "from": "bilgilendirme@vergidaire.org",
+      "subject": "Vergi cezası bildirimi",
+      "body": "Vergi borcunuza ilişkin ceza kesildi. Detayları görmek için ekteki PDF'i açın.",
+      "hasLink": false,
+      "urgency": "high"
+    },
+    "question": "Ekteki dosya beklenmedikse ne yapmalısınız?",
+    "options": [
+      "Gönderenin doğruluğunu teyit etmeden eki açmam.",
+      "Eki açıp içeriği hemen inceleyip talimatlara uyarım.",
+      "E-postayı silerim ve işlemi görmezden gelirim.",
+      "E-postayı başka bir çalışana iletirim."
+    ],
+    "correctAnswer": "Gönderenin doğruluğunu teyit etmeden eki açmam.",
+    "explanation": "Resmi kurumdan gelen gibi görünen ekler bile sahte olabilir; önce göndereni doğrulayın."
+  },
+  {
+    "id": 13,
+    "email": {
+      "from": "destek@turkcell-giris.com",
+      "subject": "SIM kart yenileme talebiniz alındı",
+      "body": "SIM yenileme talebiniz alındı. Onaylamak için burayı tıklayın: http://turkcell-simyeni.com/aktif",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "Böyle bir e-posta aldığınızda ne yapmalısınız?",
+    "options": [
+      "Phishing şüphesiyle Turkcell müşteri hizmetlerini arayıp durumu doğrularım.",
+      "Bağlantıya tıklayıp onaylarım.",
+      "E-postayı yöneticime iletirim.",
+      "E-postayı görmezden gelirim."
+    ],
+    "correctAnswer": "Phishing şüphesiyle Turkcell müşteri hizmetlerini arayıp durumu doğrularım.",
+    "explanation": "Operatör işlemlerini resmi müşteri hizmetleri veya uygulama üzerinden doğrulayın."
+  },
+  {
+    "id": 14,
+    "email": {
+      "from": "yazilimdestek@windows.com",
+      "subject": "Windows güncellemesi indir",
+      "body": "Güncellemeyi buradan indiriniz: http://windows-guncelle.com/indir",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "Bu e-postaya karşı nasıl hareket etmelisiniz?",
+    "options": [
+      "Windows Update aracını kullanıp güncellemeleri kontrol ederim.",
+      "E-postadaki bağlantıdan güncellemeyi indiririm.",
+      "E-postayı silerim ve güncellemeyi boşveririm.",
+      "E-postayı teknik ekibe iletip dosyayı açtırırım."
+    ],
+    "correctAnswer": "Windows Update aracını kullanıp güncellemeleri kontrol ederim.",
+    "explanation": "İşletim sistemi güncellemelerini resmi güncelleme aracından gerçekleştirin; bilinmeyen bağlantılardan indirmeyin."
+  },
+  {
+    "id": 15,
+    "email": {
+      "from": "efatura@muhasebe.com",
+      "subject": "Yeni e-fatura bildirimi",
+      "body": "Sisteminizde yeni bir e-fatura var. Lütfen eki kontrol edin.",
+      "hasLink": false,
+      "urgency": "low"
+    },
+    "question": "Beklenmedik e-fatura eki geldiğinde ne yapmalısınız?",
+    "options": [
+      "Gönderenin gerçekliğini doğruladıktan sonra eki açarım.",
+      "Eki hemen açarım çünkü faturadır.",
+      "E-postayı silerim, faturayı görmezden gelirim.",
+      "E-postayı başkasına iletirim."
+    ],
+    "correctAnswer": "Gönderenin gerçekliğini doğruladıktan sonra eki açarım.",
+    "explanation": "Beklenmeyen eklere dikkat edin; gönderen doğrulanmadan ek açmak risklidir."
+  },
+  {
+    "id": 16,
+    "email": {
+      "from": "destek@hepsiburada.com",
+      "subject": "Hesabınızda şüpheli giriş tespit edildi",
+      "body": "Hesabınız başka bir cihazdan açıldı. Hesabınızı kapatmak için buradan giriş yapın: http://hepsiburada-giris-kontrol.com",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Bu durumda en doğru hareket hangisidir?",
+    "options": [
+      "Phishing olabilir; doğrudan Hepsiburada hesabıma girip kontrol ederim.",
+      "E-postadaki linke tıklayıp hesabı kapatırım.",
+      "E-postayı görmezden gelirim.",
+      "E-postayı sosyal medyada paylaşırım."
+    ],
+    "correctAnswer": "Phishing olabilir; doğrudan Hepsiburada hesabıma girip kontrol ederim.",
+    "explanation": "Hesap güvenliği uyarılarını servis arayüzünden doğrulayın; e-posta bağlantılarını kullanmayın."
+  },
+  {
+    "id": 17,
+    "email": {
+      "from": "support@instagrambot.com",
+      "subject": "Instagram hesap onayı gerekli",
+      "body": "Hesabınızı doğrulamak için hemen şu linke tıklayın: http://instagram-onay.com/dogrula",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "Instagram doğrulama gerektirdiği iddiasıyla gelen link için ne yapmalısınız?",
+    "options": [
+      "Uygulamadan veya resmi siteden hesabımı kontrol ederim; e-posta linkine tıklamam.",
+      "Linke tıklayıp onay işlemini yaparım.",
+      "E-postayı yok sayarım.",
+      "E-postayı başkasına iletirim."
+    ],
+    "correctAnswer": "Uygulamadan veya resmi siteden hesabımı kontrol ederim; e-posta linkine tıklamam.",
+    "explanation": "Sosyal medya doğrulamaları genellikle uygulama içinden yapılır; e-posta linklerine güvenmeyin."
+  },
+  {
+    "id": 18,
+    "email": {
+      "from": "support@steam-support.com",
+      "subject": "Steam: Hesabınıza yeni bir kart eklendi",
+      "body": "Hesabınıza yeni bir kredi kartı eklendi. Eğer bu siz değilseniz şifrenizi değiştirin: http://steam-giris.com/sifredegistir",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Böyle bir e-posta aldığınızda ne yapmalısınız?",
+    "options": [
+      "Phishing olabilir; doğrudan Steam hesabıma girip ödeme yöntemlerini kontrol ederim.",
+      "Linke tıklayıp şifremi değiştiririm.",
+      "E-postayı yöneticime iletirim.",
+      "E-postayı silerim ve işlem yapmam."
+    ],
+    "correctAnswer": "Phishing olabilir; doğrudan Steam hesabıma girip ödeme yöntemlerini kontrol ederim.",
+    "explanation": "Ödeme bilgileriyle ilgili bildirimlerde doğrudan hizmetin resmi arayüzünü kullanın."
+  },
+  {
+    "id": 19,
+    "email": {
+      "from": "ik@abc-corp.com",
+      "subject": "ABC Corporation çalışan anketi",
+      "body": "Çalışan anketine katılmak için buraya tıklayın: http://abc-anket.com/goruntule",
+      "hasLink": true,
+      "urgency": "low"
+    },
+    "question": "Kurumsal anket daveti geldiğinde nasıl hareket etmelisiniz?",
+    "options": [
+      "Bağlantıya tıklamadan önce İK ile doğrulama yaparım.",
+      "Hemen ankete tıklarım ve bilgi girerim.",
+      "E-postayı silerim.",
+      "E-postayı herkese iletirim."
+    ],
+    "correctAnswer": "Bağlantıya tıklamadan önce İK ile doğrulama yaparım.",
+    "explanation": "Kurumsal talepleri resmi iç kanallar üzerinden doğrulayın; bilinmeyen linklere tıklamayın."
+  },
+  {
+    "id": 20,
+    "email": {
+      "from": "bagis@yardimvakfi.org",
+      "subject": "Koronavirüs yardım kampanyası — destek olun",
+      "body": "Acil yardım kampanyamız için bağış yapmak isterseniz buraya tıklayın: http://yardimvakfi-korona.com/odeme",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Bağış isteği içeren böyle bir e-posta aldığınızda ne yapmalısınız?",
+    "options": [
+      "Kampanyayı resmi kuruluşun doğrulanmış web sitesi veya hesaplarından kontrol ederim.",
+      "Bağlantıya tıklayıp kredi kartı bilgimi girerim.",
+      "E-postayı paylaşırım.",
+      "E-postayı hemen silerim."
+    ],
+    "correctAnswer": "Kampanyayı resmi kuruluşun doğrulanmış web sitesi veya hesaplarından kontrol ederim.",
+    "explanation": "Yardım kampanyaları adına yapılan oltalama saldırılarına karşı kuruluşun resmi kanallarından kontrol edin."
+  },
+  {
+    "id": 21,
+    "email": {
+      "from": "security@googlemail.com",
+      "subject": "Gmail hesabınız donduruldu",
+      "body": "Hesabınız donduruldu. Hesaba geri dönmek için doğrulama yapın: http://google-giris.com/dogrulama",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Böyle bir bildirimi alırsanız ne yapmalısınız?",
+    "options": [
+      "Doğrudan Google hesabıma giriş yapıp bildirimi kontrol ederim; e-posta linkine tıklamam.",
+      "Linke tıklayıp hesabımı doğrularım.",
+      "E-postayı başkasına iletirim.",
+      "E-postayı görmezden gelirim."
+    ],
+    "correctAnswer": "Doğrudan Google hesabıma giriş yapıp bildirimi kontrol ederim; e-posta linkine tıklamam.",
+    "explanation": "Resmi Google bildirimleri genellikle @google.com gibi güvenilir adreslerden gelir; alternatif kaynaklardan kontrol edin."
+  },
+  {
+    "id": 22,
+    "email": {
+      "from": "dhl@shipments.com",
+      "subject": "Kargonuz gümrükte bekliyor",
+      "body": "Gümrük işlemleri için belge yüklemeniz gerekiyor: http://dhl-gumruk.com/onay",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Kargo bildirimi adı altında gelen bu bağlantıya ne yapmalısınız?",
+    "options": [
+      "Resmi kargo firmasının sitesinden takip yapıp gerekirse müşteri hizmetlerine danışırım.",
+      "Linke tıklayıp belge yüklerim.",
+      "E-postayı silerim.",
+      "E-postayı transfer eden kişiye gönderirim."
+    ],
+    "correctAnswer": "Resmi kargo firmasının sitesinden takip yapıp gerekirse müşteri hizmetlerine danışırım.",
+    "explanation": "Kargo bildirimlerinde e-posta bağlantıları yerine resmi takip numarasıyla şirket sitesini kullanın."
+  },
+  {
+    "id": 23,
+    "email": {
+      "from": "online@gelirgirisi.com",
+      "subject": "Gelir İdaresi: e-Fatura başvurunuz onaylandı",
+      "body": "Detaylar için buraya tıklayın: http://www.e-fatura-giris.com/hesabim",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "Bu tür resmi görünen vergi bildiriminde en iyi yaklaşım nedir?",
+    "options": [
+      "E-Devlet veya Gelir İdaresi portalından doğrudan giriş yaparak doğrulama yapmak.",
+      "E-postadaki linke tıklayıp bilgileri incelemek.",
+      "E-postayı yok saymak.",
+      "E-postayı şirket muhasebesine iletmek."
+    ],
+    "correctAnswer": "E-Devlet veya Gelir İdaresi portalından doğrudan giriş yaparak doğrulama yapmak.",
+    "explanation": "Vergi/Resmi bildirimler için her zaman resmi portalları kullanın; e-posta bağlantıları tehlikeli olabilir."
+  },
+  {
+    "id": 24,
+    "email": {
+      "from": "icloud@bilgi.com",
+      "subject": "iCloud hesabınız için doğrulama gerekli",
+      "body": "iCloud hesabınızı doğrulayın: http://apple-giris.com/dogrulama",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Apple kimlik doğrulaması iddiasıyla gelen link için nasıl davranmalısınız?",
+    "options": [
+      "Cihazınızdan veya apple.com üzerinden doğrudan hesabınızı kontrol ederim.",
+      "E-postadaki linke tıklayarak doğrulama yaparım.",
+      "E-postayı paylaşırım.",
+      "E-postayı silerim."
+    ],
+    "correctAnswer": "Cihazınızdan veya apple.com üzerinden doğrudan hesabınızı kontrol ederim.",
+    "explanation": "Apple bildirilerini cihazınızdan veya resmi adresten doğrulayın; e-posta linklerine güvenmeyin."
+  },
+  {
+    "id": 25,
+    "email": {
+      "from": "teams@x-company.net",
+      "subject": "Microsoft Teams: Yeni dosya paylaşıldı",
+      "body": "OneDrive üzerinden paylaşılan dosyayı görmek için buraya tıklayın: http://onedrive-paylasim.com/raf",
+      "hasLink": true,
+      "urgency": "low"
+    },
+    "question": "Paylaşılan dosya bildirimi aldığınızda en güvenli hareket nedir?",
+    "options": [
+      "Teams veya OneDrive uygulaması üzerinden paylaşımı doğrulamak.",
+      "E-postadaki bağlantıya tıklayıp dosyayı açmak.",
+      "E-postayı silmek.",
+      "E-postayı başkasına iletmek."
+    ],
+    "correctAnswer": "Teams veya OneDrive uygulaması üzerinden paylaşımı doğrulamak.",
+    "explanation": "Paylaşımları doğrudan uygulama veya platform üzerinden kontrol edin; e-posta linkleri sahte olabilir."
+  },
+  {
+    "id": 26,
+    "email": {
+      "from": "info@amazon-giveaways.com",
+      "subject": "Tebrikler! Amazon hediye kartı kazandınız",
+      "body": "Ödülünüzü almak için şu adrese gidin: http://amazon-kupongir.com/al",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Beklenmedik Amazon çekilişi bildirimi aldığınızda ne yapmalısınız?",
+    "options": [
+      "Phishing ihtimaline karşı Amazon hesabınıza gidip kampanyayı kontrol ederim.",
+      "Linke tıklayıp ödülü alırım.",
+      "E-postayı sosyal medyada paylaşırım.",
+      "E-postayı silerim."
+    ],
+    "correctAnswer": "Phishing ihtimaline karşı Amazon hesabınıza gidip kampanyayı kontrol ederim.",
+    "explanation": "Bilinmeyen çekiliş ve ödül vaatleri genelde oltalama amaçlıdır; resmi hesaplardan doğrulayın."
+  },
+  {
+    "id": 27,
+    "email": {
+      "from": "pay@akbanksecure.com",
+      "subject": "Akbank: Ödeme onayı gerekiyor",
+      "body": "Ödemeniz tamamlanmadı. Doğrulamak için buraya tıklayın: http://akbank-odeme.com/dogrulama",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Bankacılık ile ilgili bu tür linkler için en güvenli yaklaşım nedir?",
+    "options": [
+      "Bankanın resmi internet şubesinden veya müşteri hizmetlerinden bilgiyi doğrulamak.",
+      "E-postadaki linke tıklayıp bilgiyi güncellemek.",
+      "E-postayı başkasına yönlendirmek.",
+      "E-postayı görmezden gelmek."
+    ],
+    "correctAnswer": "Bankanın resmi internet şubesinden veya müşteri hizmetlerinden bilgiyi doğrulamak.",
+    "explanation": "Finansal işlemler için e-posta bağlantılarına güvenmeyin; doğrudan bankanın resmi kanallarını kullanın."
+  },
+  {
+    "id": 28,
+    "email": {
+      "from": "destek@trendyol-yorum.com",
+      "subject": "Trendyol: Yeni yorum bildirimi",
+      "body": "Yeni yorumları görmek için tıklayın: http://trendyol-yorum.com/goruntule",
+      "hasLink": true,
+      "urgency": "low"
+    },
+    "question": "E-ticaret sitesi bildirimi görünümündeki link için ne yapmalısınız?",
+    "options": [
+      "Uygulama veya web sitesi üzerinden hesabımı kontrol ederim; e-posta linkine tıklamam.",
+      "Linke tıklayıp yorumu okurum.",
+      "E-postayı silerim.",
+      "E-postayı paylaşıp başkalarının da tıklamasını sağlarım."
+    ],
+    "correctAnswer": "Uygulama veya web sitesi üzerinden hesabımı kontrol ederim; e-posta linkine tıklamam.",
+    "explanation": "Hesap bildirimlerini doğrudan güvenli arayüzden kontrol edin."
+  },
+  {
+    "id": 29,
+    "email": {
+      "from": "notification@slack-user.com",
+      "subject": "Slack: Yeni mesajınız var",
+      "body": "Mesajı görmek için buraya tıklayın: http://slack-guvenlik.com/mesaj",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "Slack bildirimi içeren bu e-posta için en güvenli davranış nedir?",
+    "options": [
+      "Slack uygulamasından veya web arayüzünden gelen bildirimi kontrol etmek.",
+      "E-postadaki bağlantıya tıklayıp mesajı okumak.",
+      "E-postayı silmek.",
+      "E-postayı birine iletmek."
+    ],
+    "correctAnswer": "Slack uygulamasından veya web arayüzünden gelen bildirimi kontrol etmek.",
+    "explanation": "Mesaj bildirimlerini doğrudan uygulama üzerinden kontrol etmek en güvenli yöntemdir."
+  },
+  {
+    "id": 30,
+    "email": {
+      "from": "linkedin@networkupdate.com",
+      "subject": "LinkedIn: Yeni bağlantı isteğiniz var",
+      "body": "Bağlantı isteğini görmek için buraya tıklayın: http://linkedin-baglanti.com/goruntule",
+      "hasLink": true,
+      "urgency": "low"
+    },
+    "question": "LinkedIn bağlantı isteği bildirimi için nasıl hareket etmelisiniz?",
+    "options": [
+      "LinkedIn hesabınıza girip isteği oradan kontrol ederim.",
+      "E-postadaki linke tıklayıp isteği kabul ederim.",
+      "E-postayı silerim.",
+      "E-postayı başkasına iletirim."
+    ],
+    "correctAnswer": "LinkedIn hesabınıza girip isteği oradan kontrol ederim.",
+    "explanation": "Profesyonel ağ bildirimlerini her zaman platformun kendi arayüzünden doğrulayın."
+  },
+  {
+    "id": 31,
+    "email": {
+      "from": "security@twitter.com",
+      "subject": "Twitter hesabınız doğrulama gerektiriyor",
+      "body": "Hesabınız doğrulanmadı. Doğrulamak için buraya tıklayın: http://twitter-guvenlik.com/dogrula",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Twitter'dan geldiği iddia edilen bu e-posta için ne yapmalısınız?",
+    "options": [
+      "Twitter hesabıma giriş yapıp bildirimi platform üzerinden kontrol ederim.",
+      "Bağlantıya tıklayıp doğrulamayı yaparım.",
+      "E-postayı silerim.",
+      "E-postayı başka bir kullanıcıya iletirim."
+    ],
+    "correctAnswer": "Twitter hesabıma giriş yapıp bildirimi platform üzerinden kontrol ederim.",
+    "explanation": "Sosyal ağ bildirimlerini doğrudan platformdan doğrulayın; sahte linklere dikkat edin."
+  },
+  {
+    "id": 32,
+    "email": {
+      "from": "security@ttnet.com",
+      "subject": "TTNET güvenlik uyarısı",
+      "body": "Kimlik doğrulaması için buradan devam edin: http://ttnet-giris.com/dogrula",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "TTNET gibi servis sağlayıcıdan gelen güvenlik e-postasında ne yapmalısınız?",
+    "options": [
+      "Servisin resmi sitesine girip hesabımı kontrol ederim; e-posta linkine tıklamam.",
+      "Linke tıklayıp doğrulama yaparım.",
+      "E-postayı yöneticime iletirim.",
+      "E-postayı spam olarak işaretlerim."
+    ],
+    "correctAnswer": "Servisin resmi sitesine girip hesabımı kontrol ederim; e-posta linkine tıklamam.",
+    "explanation": "İnternet servis sağlayıcı bildirimlerini resmi kanallardan doğrulayın; bilinmeyen bağlantılara güvenmeyin."
+  },
+  {
+    "id": 33,
+    "email": {
+      "from": "info@lottery-abc.com",
+      "subject": "Tebrikler! Büyük ikramiye kazandınız",
+      "body": "Ödülünüzü almak için kişisel bilgilerinizi ve banka hesabınızı gönderin.",
+      "hasLink": false,
+      "urgency": "high"
+    },
+    "question": "Beklenmeyen piyango kazancı bildirimi aldığınızda ne yapmalısınız?",
+    "options": [
+      "Kesinlikle kişisel veya banka bilgilerinizi paylaşmayıp e-postayı silerim.",
+      "İstenen bilgileri gönderip ödülü talep ederim.",
+      "E-postayı sosyal medyada paylaşırım.",
+      "E-postayı yöneticime iletirim."
+    ],
+    "correctAnswer": "Kesinlikle kişisel veya banka bilgilerinizi paylaşmayıp e-postayı silerim.",
+    "explanation": "Katılmadığınız çekilişlerden gelen kazanç bildirimleri dolandırıcılıktır; bilgi paylaşmayın."
+  },
+  {
+    "id": 34,
+    "email": {
+      "from": "notify@fedexshipping.com",
+      "subject": "FedEx teslimat bildirimi",
+      "body": "Kargonuz için takip bilgisi: http://fedex-kargo.com/takip",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "Kargo takip bağlantısı içeren e-posta alındığında ne yapmalısınız?",
+    "options": [
+      "Taşıyıcının resmi web sitesinden takip numarası ile kontrol ederim.",
+      "E-postadaki linke tıklayıp takip ederim.",
+      "E-postayı silerim.",
+      "E-postayı başkasına iletirim."
+    ],
+    "correctAnswer": "Taşıyıcının resmi web sitesinden takip numarası ile kontrol ederim.",
+    "explanation": "Kargo bildirimlerini resmi taşıyıcı arayüzünden takip edin; e-posta linkleri oltalama olabilir."
+  },
+  {
+    "id": 35,
+    "email": {
+      "from": "security@appleid.com",
+      "subject": "Apple kimlik doğrulaması gerekiyor",
+      "body": "Apple kimliğinizi doğrulamak için buraya tıklayın: http://apple-guvenlik.com/dogrula",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Apple hesabıyla ilgili böyle bir e-posta geldiğinde en iyi hareket nedir?",
+    "options": [
+      "Cihazımdan veya apple.com üzerinden hesabımı kontrol ederim; e-posta linkine güvenmem.",
+      "Bağlantıya tıklayıp kimliğimi doğrularım.",
+      "E-postayı silerim.",
+      "E-postayı başkasına gönderirim."
+    ],
+    "correctAnswer": "Cihazımdan veya apple.com üzerinden hesabımı kontrol ederim; e-posta linkine güvenmem.",
+    "explanation": "Apple bildirimlerini resmi kaynaklardan doğrulayın; sahte bağlantılara itibar etmeyin."
+  },
+  {
+    "id": 36,
+    "email": {
+      "from": "info@thy-tickets.com",
+      "subject": "THY bilet rezervasyon onayı",
+      "body": "Rezervasyon detayları için: http://thy-bilet.com/detay",
+      "hasLink": true,
+      "urgency": "low"
+    },
+    "question": "Uçuş rezervasyonu bildirimi aldığınızda ne yapmalısınız?",
+    "options": [
+      "Havayolu şirketinin resmi web sitesinden rezervasyonumu kontrol ederim.",
+      "E-postadaki linke tıklayıp rezervasyonu onaylarım.",
+      "E-postayı silerim.",
+      "E-postayı paylaşıp başkalarına da tıklatırım."
+    ],
+    "correctAnswer": "Havayolu şirketinin resmi web sitesinden rezervasyonumu kontrol ederim.",
+    "explanation": "Rezervasyon bilgilerini daima resmi kanallardan doğrulayın; e-posta içindeki linkler yanıltıcı olabilir."
+  },
+  {
+    "id": 37,
+    "email": {
+      "from": "destek@whatsapp.com",
+      "subject": "WhatsApp: Hesabınıza yeni cihaz eklendi",
+      "body": "Hesabınızı korumak için hemen şifrenizi yenileyin: http://whatsapp-guvenlik.com/yenile",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "WhatsApp ile ilgili böyle bir e-posta geldiğinde ne yapmalısınız?",
+    "options": [
+      "Uygulamayı açıp hesap ayarlarından ilgili bildirimi kontrol ederim.",
+      "E-postadaki linke tıklayarak şifreyi yenilerim.",
+      "E-postayı silerim.",
+      "E-postayı paylaşırım."
+    ],
+    "correctAnswer": "Uygulamayı açıp hesap ayarlarından ilgili bildirimi kontrol ederim.",
+    "explanation": "Mesajlaşma uygulaması bildirimlerini uygulama içinden doğrulayın; e-posta linkleri risklidir."
+  },
+  {
+    "id": 38,
+    "email": {
+      "from": "ogrenci@universite.edu.tr",
+      "subject": "Ders final sınav sonuçlarınız yayınlandı",
+      "body": "Sonuçlarınızı görmek için buraya tıklayın: http://universite-sonuc.com/danis",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "Akademik sonuç bildirimi içeren bu link için ne yapmalısınız?",
+    "options": [
+      "Üniversitenin resmi öğrenci portalına girerek sonuçları kontrol ederim.",
+      "E-postadaki linke tıklayıp sonuçları görüntülerim.",
+      "E-postayı silerim.",
+      "E-postayı arkadaşlarıma iletirim."
+    ],
+    "correctAnswer": "Üniversitenin resmi öğrenci portalına girerek sonuçları kontrol ederim.",
+    "explanation": "Akademik işlemleri resmi öğrenci bilgi sistemi üzerinden doğrulayın; e-posta bağlantıları sahte olabilir."
+  },
+  {
+    "id": 39,
+    "email": {
+      "from": "support@github-support.com",
+      "subject": "GitHub hesabınız için şifre sıfırlama",
+      "body": "Şifrenizi sıfırlamak için buraya tıklayın: http://github-giris.com/sifirla",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Şifre sıfırlama e-postası aldığınızda hangi adımı atmalısınız?",
+    "options": [
+      "Phishing ihtimaline karşı doğrudan GitHub hesabıma giriş yapıp parola sıfırlama isteğini kontrol ederim.",
+      "E-postadaki linke tıklayıp yeni parola belirlerim.",
+      "E-postayı başka birine iletirim.",
+      "E-postayı silerim ve beklerim."
+    ],
+    "correctAnswer": "Phishing ihtimaline karşı doğrudan GitHub hesabıma giriş yapıp parola sıfırlama isteğini kontrol ederim.",
+    "explanation": "Şifre sıfırlama mailleri kötüye kullanılabilir; doğrudan hesabın güvenlik ayarlarından kontrol edin."
+  },
+  {
+    "id": 40,
+    "email": {
+      "from": "security@tiktok.com",
+      "subject": "TikTok hesabınız engellendi",
+      "body": "Hesabınızı geri almak için doğrulama yapın: http://tiktok-giris.com/dogrulama",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "TikTok hesabıyla ilgili böyle bir bildirim aldığınızda ne yapmalısınız?",
+    "options": [
+      "Uygulamayı açıp hesabımın durumunu kontrol ederim.",
+      "E-postadaki linke tıklayıp doğrulama yaparım.",
+      "E-postayı paylaşırım.",
+      "E-postayı silerim."
+    ],
+    "correctAnswer": "Uygulamayı açıp hesabımın durumunu kontrol ederim.",
+    "explanation": "Hesap güvenliği bildirimlerini uygulama veya resmi site üzerinden doğrulayın."
+  },
+  {
+    "id": 41,
+    "email": {
+      "from": "fatura@kagithelva.com",
+      "subject": "Ödemeye hazır elektronik fatura",
+      "body": "Elektrik faturanız ekte gönderilmiştir.",
+      "hasLink": false,
+      "urgency": "medium"
+    },
+    "question": "Beklenmedik fatura eki geldiğinde önce ne yapmalısınız?",
+    "options": [
+      "Gönderenin gerçekliğini doğrulamadan eki açmam.",
+      "Eki hemen açıp incelerim.",
+      "E-postayı silerim.",
+      "E-postayı yöneticime iletirim."
+    ],
+    "correctAnswer": "Gönderenin gerçekliğini doğrulamadan eki açmam.",
+    "explanation": "Beklenmeyen ekler kötü amaçlı olabilir; gönderen doğrulanmadan dosya açmayın."
+  },
+  {
+    "id": 42,
+    "email": {
+      "from": "newsletter@qatarairways.com",
+      "subject": "Qatar Airways: Mil ödülü kazandınız",
+      "body": "Mil ödülünüzü almak için buraya tıklayın: http://qatarairways-mil.com",
+      "hasLink": true,
+      "urgency": "low"
+    },
+    "question": "Seyahat ödülü bildirimlerinde nasıl davranmalısınız?",
+    "options": [
+      "Havayolu hesabımdan veya resmi sitesinden kampanyayı doğrularım.",
+      "Linke tıklayıp ödülü alırım.",
+      "E-postayı silerim.",
+      "E-postayı paylaşırım."
+    ],
+    "correctAnswer": "Havayolu hesabımdan veya resmi sitesinden kampanyayı doğrularım.",
+    "explanation": "Ödül vaatleri oltalama amaçlı olabilir; resmi hesaplardan doğrulayın."
+  },
+  {
+    "id": 43,
+    "email": {
+      "from": "security@isbankasi.com.tr",
+      "subject": "Hesabınız donduruldu",
+      "body": "Hesabınızı açmak için lütfen şu linkten doğrulama yapın: http://isbank-sifre.onayla.com",
+      "hasLink": true,
+      "urgency": "high"
+    },
+    "question": "Bankadan geldiği iddia edilen bu uyarıyla karşılaşırsanız ne yapmalısınız?",
+    "options": [
+      "Bankanın resmi internet şubesinden hesabımı kontrol ederim; e-posta linkine tıklamam.",
+      "Bağlantıya tıklayıp doğrulamayı tamamlarım.",
+      "E-postayı silerim.",
+      "E-postayı yöneticime iletirim."
+    ],
+    "correctAnswer": "Bankanın resmi internet şubesinden hesabımı kontrol ederim; e-posta linkine tıklamam.",
+    "explanation": "Finansal bildirimleri doğrudan bankanın resmi kanallarından doğrulayın."
+  },
+  {
+    "id": 44,
+    "email": {
+      "from": "destek@arabafirma.com",
+      "subject": "Araç bakım raporunuz hazırlandı",
+      "body": "Ekteki PDF'te bakım raporunuz bulunmaktadır; lütfen inceleyin.",
+      "hasLink": false,
+      "urgency": "low"
+    },
+    "question": "Beklenmeyen bir araç bakım raporu eki geldiğinde ne yapmalısınız?",
+    "options": [
+      "Gönderen kuruluşu doğrulamadan eki açmam.",
+      "Eki açıp raporu incelerim.",
+      "E-postayı silerim.",
+      "E-postayı paylaşırım."
+    ],
+    "correctAnswer": "Gönderen kuruluşu doğrulamadan eki açmam.",
+    "explanation": "E-posta ekleri kötü amaçlı yazılım içerebilir; göndericiyi doğrulamadan açmayın."
+  },
+  {
+    "id": 45,
+    "email": {
+      "from": "destek@saglik.gov.tr",
+      "subject": "PCR test sonuçlarınız yüklendi",
+      "body": "Test sonuçlarınızı görüntülemek için buraya tıklayın: http://sagliksonuc-sorgu.com",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "Sağlık sonuçlarıyla ilgili bu e-posta için ne yapmalısınız?",
+    "options": [
+      "Sağlık Bakanlığı veya ilgili resmi portal üzerinden sonuçları kontrol ederim.",
+      "Linke tıklayıp sonuçları indiririm.",
+      "E-postayı silerim.",
+      "E-postayı paylaşırım."
+    ],
+    "correctAnswer": "Sağlık Bakanlığı veya ilgili resmi portal üzerinden sonuçları kontrol ederim.",
+    "explanation": "Sağlık bilgileri hassastır; resmi portalları kullanarak doğrulayın."
+  },
+  {
+    "id": 46,
+    "email": {
+      "from": "destek@mavifinans.com",
+      "subject": "Kredi başvurunuz onaylandı",
+      "body": "Kredi formunu doldurmak için tıklayın: http://mavifinans-onay.com/form",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "Kredi onayı iddiasıyla gelen e-postada nasıl davranmalısınız?",
+    "options": [
+      "Bankayı arayıp onayı doğrular, resmi kanal üzerinden işlem yaparım.",
+      "Linke tıklayıp formu doldururum.",
+      "E-postayı silerim.",
+      "E-postayı paylaşırım."
+    ],
+    "correctAnswer": "Bankayı arayıp onayı doğrular, resmi kanal üzerinden işlem yaparım.",
+    "explanation": "Kredi ve finansal teklifler sahteciliğe açıktır; bankanın resmi kanallarından doğrulayın."
+  },
+  {
+    "id": 47,
+    "email": {
+      "from": "money@moneygram-transfer.com",
+      "subject": "MoneyGram: Para transfer onayı",
+      "body": "Parayı almak için bilgilerinizi buradan girin: http://moneygram-transfer.com/bank",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "Para transferi bildirimi aldığınızda hangi davranış güvenlidir?",
+    "options": [
+      "Phishing ihtimaline karşı linke tıklamadan resmi servisi ararım veya hesabımdan kontrol ederim.",
+      "Bağlantıya tıklayıp bilgileri girerim.",
+      "E-postayı silerim.",
+      "E-postayı başkasına iletirim."
+    ],
+    "correctAnswer": "Phishing ihtimaline karşı linke tıklamadan resmi servisi ararım veya hesabımdan kontrol ederim.",
+    "explanation": "Para transferi bildirimleri oltalama amaçlı olabilir; resmi kanallardan doğrulayın."
+  },
+  {
+    "id": 48,
+    "email": {
+      "from": "offers@ubereats.com",
+      "subject": "Ücretsiz yemek hediyesi",
+      "body": "Kuponu almak için tıklayın: http://ubereats-kupon.com/bedava",
+      "hasLink": true,
+      "urgency": "low"
+    },
+    "question": "Cazip kupon teklifi içeren e-postaya nasıl yaklaşmalısınız?",
+    "options": [
+      "Uygulama veya resmi site üzerinden teklifin doğruluğunu kontrol ederim.",
+      "E-postadaki linke tıklayıp kuponu alırım.",
+      "E-postayı arkadaşlarıma yönlendiririm.",
+      "E-postayı silerim."
+    ],
+    "correctAnswer": "Uygulama veya resmi site üzerinden teklifin doğruluğunu kontrol ederim.",
+    "explanation": "Promosyon görünümlü oltalamalara karşı resmi kanalları kullanarak doğrulama yapın."
+  },
+  {
+    "id": 49,
+    "email": {
+      "from": "support@x-store.com",
+      "subject": "Siparişiniz kargoya verildi",
+      "body": "Kargonuzu takip etmek için buraya tıklayın: http://xstore-kargo.com/takip",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "E-ticaret sipariş bildirimindeki bu link için ne yapmalısınız?",
+    "options": [
+      "Mağaza web sitesi veya kargo firmasının resmi sitesi üzerinden takip numarası ile kontrol ederim.",
+      "E-postadaki linke tıklayıp takip ederim.",
+      "E-postayı silerim.",
+      "E-postayı paylaşırım."
+    ],
+    "correctAnswer": "Mağaza web sitesi veya kargo firmasının resmi sitesi üzerinden takip numarası ile kontrol ederim.",
+    "explanation": "Sipariş takiplerini resmi kanallardan doğrulayın; e-posta içindeki linkler sahte olabilir."
+  },
+  {
+    "id": 50,
+    "email": {
+      "from": "support@spotify.com",
+      "subject": "Spotify: Abonelik ödemeniz başarısız oldu",
+      "body": "Ödeme bilgilerinizi güncellemek için buraya tıklayın: http://spotify-odeme.com/guncelle",
+      "hasLink": true,
+      "urgency": "medium"
+    },
+    "question": "Abonelik ödemesi başarısız bildirimi aldığınızda en güvenli hareket nedir?",
+    "options": [
+      "Spotify hesabıma girip ödeme durumunu kontrol ederim; e-postadaki linke tıklamam.",
+      "Bağlantıya tıklayıp ödeme bilgilerini güncellerim.",
+      "E-postayı silerim.",
+      "E-postayı yöneticime iletirim."
+    ],
+    "correctAnswer": "Spotify hesabıma girip ödeme durumunu kontrol ederim; e-postadaki linke tıklamam.",
+    "explanation": "Abonelik ve ödeme bildirimlerini doğrudan servis hesabınızdan doğrulayın; e-posta linkleri oltalama amaçlı olabilir."
+  }
+]

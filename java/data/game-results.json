@@ -1,0 +1,61 @@
+[ {
+  "score" : 7,
+  "totalQuestions" : 10,
+  "playedAt" : "2025-12-01T19:18:28.966741",
+  "percentage" : 70,
+  "grade" : "B",
+  "id" : 1,
+  "gameMode" : "MIXED",
+  "correctAnswers" : 7,
+  "userId" : 2
+}, {
+  "score" : 8,
+  "totalQuestions" : 10,
+  "playedAt" : "2025-12-01T19:46:50.4879499",
+  "percentage" : 80,
+  "grade" : "A",
+  "id" : 2,
+  "gameMode" : "PHISHING_ONLY",
+  "correctAnswers" : 8,
+  "userId" : 3
+}, {
+  "score" : 10,
+  "totalQuestions" : 10,
+  "playedAt" : "2025-12-01T19:52:09.0013162",
+  "percentage" : 100,
+  "grade" : "A+",
+  "id" : 4,
+  "gameMode" : "MIXED",
+  "correctAnswers" : 10,
+  "userId" : 4
+}, {
+  "score" : 5,
+  "totalQuestions" : 10,
+  "playedAt" : "2025-12-02T10:25:48.381394",
+  "percentage" : 50,
+  "grade" : "D",
+  "id" : 5,
+  "gameMode" : "MIXED",
+  "correctAnswers" : 5,
+  "userId" : 5
+}, {
+  "score" : 5,
+  "totalQuestions" : 10,
+  "playedAt" : "2025-12-02T10:27:07.4305174",
+  "percentage" : 50,
+  "grade" : "D",
+  "id" : 6,
+  "gameMode" : "MIXED",
+  "correctAnswers" : 5,
+  "userId" : 6
+}, {
+  "score" : 5,
+  "totalQuestions" : 10,
+  "playedAt" : "2025-12-02T10:34:34.2494803",
+  "percentage" : 50,
+  "grade" : "D",
+  "id" : 7,
+  "gameMode" : "MIXED",
+  "correctAnswers" : 5,
+  "userId" : 7
+} ]

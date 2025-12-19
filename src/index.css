@@ -1,0 +1,367 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Siber Güvenlik Teması - Siyah Beyaz Gri */
+:root {
+  --cyber-black: #000000;
+  --cyber-dark: #0a0a0a;
+  --cyber-gray: #1a1a1a;
+  --cyber-light-gray: #2a2a2a;
+  --cyber-white: #ffffff;
+  --cyber-off-white: #f0f0f0;
+  --cyber-cyan: #808080;
+  --cyber-bright-cyan: #a0a0a0;
+  --cyber-green: #00ff00;
+  --cyber-red: #ff0040;
+  --cyber-yellow: #ffff00;
+  --cyber-purple: #8000ff;
+}
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Courier New', 'Monaco', 'Menlo', monospace;
+  background: linear-gradient(135deg, var(--cyber-black) 0%, var(--cyber-dark) 50%, var(--cyber-gray) 100%);
+  color: var(--cyber-white);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Cyber Grid Background */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(128, 128, 128, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(128, 128, 128, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cyber-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--cyber-cyan);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--cyber-bright-cyan);
+}
+
+/* Cyber Button Styles */
+.cyber-btn {
+  @apply relative overflow-hidden;
+  background: linear-gradient(45deg, var(--cyber-black), var(--cyber-gray));
+  border: 2px solid var(--cyber-cyan);
+  color: var(--cyber-cyan);
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 1.2s ease;
+  position: relative;
+}
+
+.cyber-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(128, 128, 128, 0.2), transparent);
+  transition: left 2s;
+}
+
+.cyber-btn:hover::before {
+  left: 100%;
+}
+
+.cyber-btn:hover {
+  background: linear-gradient(45deg, var(--cyber-gray), var(--cyber-light-gray));
+  border-color: var(--cyber-bright-cyan);
+  color: var(--cyber-bright-cyan);
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.3);
+  transform: translateY(-1px);
+}
+
+.cyber-btn:active {
+  transform: translateY(0);
+}
+
+/* Cyber Card Styles */
+.cyber-card {
+  background: linear-gradient(135deg, var(--cyber-black) 0%, var(--cyber-gray) 100%);
+  border: 1px solid var(--cyber-cyan);
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(128, 128, 128, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.cyber-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--cyber-cyan), var(--cyber-purple), var(--cyber-cyan));
+  animation: cyber-glow 8s linear infinite;
+}
+
+@keyframes cyber-glow {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* Cyber Input Styles */
+.cyber-input {
+  background: var(--cyber-black);
+  border: 2px solid var(--cyber-cyan);
+  color: var(--cyber-white);
+  font-family: 'Courier New', monospace;
+  padding: 12px 16px;
+  border-radius: 4px;
+  transition: all 1.2s ease;
+}
+
+.cyber-input:focus {
+  outline: none;
+  border-color: var(--cyber-bright-cyan);
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.3);
+}
+
+.cyber-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Cyber Progress Bar */
+.cyber-progress {
+  background: var(--cyber-black);
+  border: 1px solid var(--cyber-cyan);
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cyber-progress-bar {
+  background: linear-gradient(90deg, var(--cyber-cyan), var(--cyber-green));
+  height: 100%;
+  transition: width 1.2s ease;
+  position: relative;
+}
+
+.cyber-progress-bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  animation: progress-shine 6s linear infinite;
+}
+
+@keyframes progress-shine {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+/* Cyber Alert Styles */
+.cyber-alert-success {
+  background: linear-gradient(135deg, var(--cyber-black), rgba(0, 255, 0, 0.1));
+  border: 1px solid var(--cyber-green);
+  color: var(--cyber-green);
+}
+
+.cyber-alert-error {
+  background: linear-gradient(135deg, var(--cyber-black), rgba(255, 0, 64, 0.1));
+  border: 1px solid var(--cyber-red);
+  color: var(--cyber-red);
+}
+
+.cyber-alert-warning {
+  background: linear-gradient(135deg, var(--cyber-black), rgba(255, 255, 0, 0.1));
+  border: 1px solid var(--cyber-yellow);
+  color: var(--cyber-yellow);
+}
+
+/* Cyber Text Effects */
+.cyber-text-glow {
+  text-shadow: 0 0 10px currentColor;
+}
+
+.cyber-text-typing {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(40, end);
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+
+/* Cyber Loading Animation */
+.cyber-loading {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid var(--cyber-cyan);
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: cyber-spin 1s linear infinite;
+}
+
+@keyframes cyber-spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Cyber Hover Effects */
+.cyber-hover-glow:hover {
+  box-shadow: 0 0 20px rgba(128, 128, 128, 0.5);
+}
+
+.cyber-hover-scale:hover {
+  transform: scale(1.02);
+}
+
+/* Cyber Selection */
+::selection {
+  background: var(--cyber-cyan);
+  color: var(--cyber-black);
+}
+
+/* Cyber Focus */
+.cyber-focus:focus {
+  outline: 2px solid var(--cyber-cyan);
+  outline-offset: 2px;
+}
+
+/* Motion reduce support */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* UI utility classes - Responsive version */
+.heading-hero {
+  @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white font-mono;
+}
+
+.heading-sub {
+  @apply text-base sm:text-lg md:text-xl font-bold text-gray-300 font-mono;
+}
+
+.section-title {
+  @apply text-base sm:text-lg font-bold text-white font-mono;
+}
+
+.card-section {
+  @apply cyber-card p-3 sm:p-4 md:p-6;
+}
+
+.label {
+  @apply block text-xs sm:text-sm font-bold text-gray-400 mb-2 font-mono;
+}
+
+.helper-text {
+  @apply text-xs sm:text-sm text-gray-400 font-mono;
+}
+
+.btn-secondary {
+  @apply relative overflow-hidden font-mono font-bold uppercase tracking-wider;
+  background: linear-gradient(45deg, var(--cyber-black), var(--cyber-black));
+  border: 2px solid var(--cyber-bright-cyan);
+  color: var(--cyber-bright-cyan);
+  transition: all 1.2s ease;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(45deg, var(--cyber-black), var(--cyber-gray));
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.3);
+}
+
+/* Spacing utilities - Responsive */
+.section-gap {
+  @apply mb-3 sm:mb-4 md:mb-6;
+}
+
+.card-gap {
+  @apply mb-3 sm:mb-4 md:mb-6;
+}
+
+.content-gap {
+  @apply space-y-3 sm:space-y-4 md:space-y-6;
+}
+
+/* Typography improvements - Compact */
+.text-body {
+  @apply text-sm text-gray-300 leading-relaxed font-mono;
+}
+
+.text-caption {
+  @apply text-xs text-gray-500 font-mono uppercase tracking-wider;
+}
+
+/* Enhanced card styles - Responsive */
+.cyber-card-enhanced {
+  @apply cyber-card p-3 sm:p-4 md:p-6;
+  background: linear-gradient(135deg, var(--cyber-black) 0%, var(--cyber-gray) 100%);
+  border: 1px solid var(--cyber-cyan);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive container utilities */
+.container-responsive {
+  @apply max-w-xs sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-6xl mx-auto px-4 sm:px-6 md:px-8;
+}
+
+.grid-responsive {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-6;
+}
+
+.flex-responsive {
+  @apply flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4;
+}
+
+.text-responsive {
+  @apply text-sm sm:text-base md:text-lg;
+}
+
+/* Mobile-first button sizing */
+.btn-mobile {
+  @apply py-2 px-4 text-sm sm:py-3 sm:px-6 sm:text-base;
+}
+
+/* Focus improvements */
+.cyber-focus-ring:focus {
+  outline: 2px solid var(--cyber-bright-cyan);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px rgba(128, 128, 128, 0.1);
+}
